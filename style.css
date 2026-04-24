@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4dcdc; /* stucco pink */
+    color: #3a2f2f; /* soft brown charcoal */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f7efe7; /* warm sand */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #a45a4a; /* desert clay */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #a45a4a; /* desert clay */
+}
+
+.tagline {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    color: #6b7d53; /* saguaro green */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #a45a4a;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #b85c5c; /* ocotillo red */
+}
+
+/* ===========================
+   Hero Section
+   =========================== */
+.hero {
+    background-color: #f7efe7; /* warm sand */
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 3px solid #a45a4a;
+    border-bottom: 3px solid #a45a4a;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #a45a4a;
+}
+
+/* ===========================
+   Featured Section
+   =========================== */
+.featured {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured h3 {
+    font-size: 1.6rem;
+    color: #6b7d53; /* saguaro green */
+}
+
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #b85c5c; /* ocotillo red */
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #a45a4a; /* desert clay */
+}
+
+/* ===========================
+   Footer
+   =========================== */
+footer {
+    background-color: #f7efe7;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-top: 4px solid #a45a4a;
+}
